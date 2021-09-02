@@ -1,0 +1,12 @@
+<p>shower-queue works!</p>
+<ul>
+  <li class="text" *ngFor="let item of items | async">
+    <div>
+      <p>{{item.name}}</p>
+      <p>{{item.date}}</p>
+      <p>{{item.startTime}}</p>
+      <p>{{item.endTime}}</p>
+      <p>{{item.duration}}</p>
+    </div>
+  </li>
+</ul>
